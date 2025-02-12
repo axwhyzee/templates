@@ -1,6 +1,6 @@
 Add line to ~/.bashrc
 ```
-alias init='git clone https://github.com/axwhyzee/templates/makefile'
+alias init='curl -o ./makefile https://raw.githubusercontent.com/axwhyzee/templates/refs/heads/main/makefile'
 ```
 
 Run .bashrc script
