@@ -5,7 +5,7 @@ clean-develop:
 
 format:
 	./env/bin/isort . --profile black --skip env
-	./env/bin/black .
+	./env/bin/black . --line-length 79
 
 test:
 	mypy .
